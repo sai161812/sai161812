@@ -1,28 +1,15 @@
 # Sai Prasad
 
-**Python developer building AI applications and security tools.**
+**Building AI applications and security tools with Python.**
 
-I'm pursuing a B.Tech in Artificial Intelligence & Data Science at Sri Sairam Engineering College, graduating in 2029. My work centers on local desktop automation, AI applications, and hands-on security tooling.
+B.Tech AI & Data Science · Sri Sairam Engineering College · Class of 2029
 
-## Selected work
+### Selected projects
 
-| Project | What I'm working on | Where to look |
-| --- | --- | --- |
-| **[PLUMA](https://github.com/sai161812/pluma)** | A local Windows assistant with voice input, typed action tools, state verification, and model lifecycle management. UI integration is in progress. | [Tool contracts](https://github.com/sai161812/pluma/blob/main/pluma/tools/base.py) · [Implementation](https://github.com/sai161812/pluma/tree/main/pluma) |
-| **[CTF-Y](https://github.com/sai161812/CTF-Y)** | An experimental LLM-assisted CTF solver that connects a reasoning loop to web, cryptography, and forensics tools. | [Agent loop](https://github.com/sai161812/CTF-Y/blob/main/agent.py) · [Tool modules](https://github.com/sai161812/CTF-Y/tree/main/modules) |
+**[PLUMA](https://github.com/sai161812/pluma)** — Local Windows voice assistant with typed action tools, state verification, and on-demand model loading. UI integration is underway.  
+[Explore the implementation](https://github.com/sai161812/pluma/tree/main/pluma) · [Tool contracts](https://github.com/sai161812/pluma/blob/main/pluma/tools/base.py)
 
-## Current focus
+**[CTF-Y](https://github.com/sai161812/CTF-Y)** — Experimental CTF toolkit connecting an LLM reasoning loop to Python tools for web challenges, cryptography, and forensics.  
+[Agent loop](https://github.com/sai161812/CTF-Y/blob/main/agent.py) · [Tool implementations](https://github.com/sai161812/CTF-Y/tree/main/modules)
 
-- Finishing PLUMA's UI integration and verifying its behavior on Windows.
-- Building deeper practical skills in application security and AI security.
-- Strengthening ML fundamentals through model evaluation and error analysis.
-
-## Tools I work with
-
-Python · SQL · NumPy · Pandas · scikit-learn · Git · Linux
-
-## Connect
-
-I'm interested in AI/ML and cybersecurity internships, particularly opportunities to build alongside experienced engineers.
-
-[LinkedIn](https://www.linkedin.com/in/sai-prasad161812/)
+Open to AI/ML and cybersecurity internships. [Connect on LinkedIn](https://www.linkedin.com/in/sai-prasad161812/).
