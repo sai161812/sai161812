@@ -1,48 +1,28 @@
 # Sai Prasad
 
-**AI + Cybersecurity Engineer**
+**AI & Data Science student building Python AI systems and cybersecurity tools.**
 
-B.Tech AI & Data Science undergraduate at Sri Sairam Engineering College.
+B.Tech AI & Data Science · Sri Sairam Engineering College · Class of 2029
 
-I’m interested in software where **intelligence has consequences** — models that choose tools, agents that interact with real systems, and security mechanisms that have to reason about behaviour instead of isolated events.
+My direction is machine learning and cybersecurity, with a particular interest in model behaviour, tool execution, and security decisions that depend on context.
 
-That naturally puts most of my work around **machine learning, agentic systems, automation, and cybersecurity**. I care less about making software look intelligent and more about making intelligent behaviour **useful, observable, bounded, and testable**.
+## Selected work
 
-## What I care about
+**[PLUMA](https://github.com/sai161812/pluma)** — Windows automation core with voice and text input, typed tool contracts, postcondition verification, and an on-demand local LLM planner. Final UI integration is in progress.  
+[Execution and verification](https://github.com/sai161812/pluma/blob/main/pluma/tools/registry.py) · [Tool contracts](https://github.com/sai161812/pluma/blob/main/pluma/tools/base.py)
 
-**AI that can act without becoming unpredictable.**  
-When a model controls tools or affects system state, reasoning alone is not enough. Permissions, verification, observability, failure handling, and deterministic boundaries matter too.
+**[Emotion classification baseline](https://github.com/sai161812/emotion-classifier1)** — TF-IDF + logistic regression for six text labels. Macro-F1 **0.838** on the bundled **2,000-example test split**, after removing 11 exact normalized training overlaps; majority-class accuracy is 34.75%, versus 88.10% for the model.  
+[Training and split audit](https://github.com/sai161812/emotion-classifier1/blob/main/training.py) · [Evaluation and errors](https://github.com/sai161812/emotion-classifier1/blob/main/evaluation.json)
 
-**Security that understands context.**  
-Individual events are often harmless in isolation. I’m interested in how intent, behaviour, process relationships, and sequences of actions can reveal what a single event cannot.
+**[CTF-Y](https://github.com/sai161812/CTF-Y)** — Experimental CTF assistant using Claude/Gemini APIs to select Python tools for web, cryptography, and forensics challenges.  
+[Agent loop](https://github.com/sai161812/CTF-Y/blob/main/agent.py) · [Tool implementations](https://github.com/sai161812/CTF-Y/tree/main/modules)
 
-**Understanding the layer below the abstraction.**  
-Frameworks are useful, but I prefer knowing what they are hiding before depending on them.
+## Current focus
 
-## Core areas
+Model training, evaluation, and behaviour; networking, operating systems, and web security.
 
-### Machine Learning
-Python · scikit-learn · NumPy · Pandas · data preprocessing · feature engineering · model training · evaluation · tuning · exploratory analysis
+Tools used in the work above: Python · scikit-learn · pandas · Pydantic · SQLite.
 
-### AI Systems & Agents
-multi-step orchestration · tool-based execution · structured model outputs · local/API-backed AI workflows · automation · system integration
+I use deterministic execution for known operations and model inference where interpretation is needed. PLUMA separates planning from typed tool execution and postcondition verification.
 
-### Cybersecurity
-networking fundamentals · operating-system fundamentals · web security · Linux/Kali Linux · CTF problem solving · security tooling
-
-### Software Engineering
-Python application architecture · REST APIs · SQLite · Docker · Git · React · JavaScript · unit/integration testing · logging & observability · Windows automation
-
-## How I engineer
-
-- **Use AI where reasoning helps; keep deterministic work deterministic.**
-- **Make state changes observable and verify that they actually happened.**
-- **Prefer explicit boundaries over giving intelligent components unrestricted control.**
-- **Build the happy path, then spend time breaking it.**
-- **If I cannot explain why a component exists, it probably should not be there.**
-
-I’m still early in the journey, which is exactly why I spend more time building, testing, breaking, and understanding systems than collecting labels for them.
-
----
-
-[LinkedIn](https://www.linkedin.com/in/sai-prasad161812/)
+Open to AI/ML and cybersecurity internships. [Connect on LinkedIn](https://www.linkedin.com/in/sai-prasad161812/).
